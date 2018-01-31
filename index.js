@@ -11,3 +11,4 @@ function nowServing(){
     katzDeli.shift();
   } else {
     return(`There is nobody waiting to be served!`)
+}
