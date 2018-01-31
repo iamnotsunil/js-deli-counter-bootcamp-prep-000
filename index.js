@@ -22,7 +22,7 @@ var lineup = [];
   for (let i=0; i<katzDeli.length; i++) {
     lineup.push(` ` + [i+1]+ `. ` + katzDeli[i])
   }
-
+//must be space in front or the commas won't line u right
   if (katzDeli.length > 0)  {
     return (`The line is currently:` + lineup);
   }
