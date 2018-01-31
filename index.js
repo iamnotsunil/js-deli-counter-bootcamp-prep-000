@@ -20,7 +20,7 @@ function nowServing(katzDeli){
 function currentLine(katzDeli){
 var lineup = [];
   for (let i=0; i<katzDeli.length; i++) {
-    lineup.push([i+1]+ `. ` + katzDeli[i])
+    lineup.push([i+1]+ `. ` + katzDeli[i] + ` `)
   }
 
   if (katzDeli.length > 0)  {
