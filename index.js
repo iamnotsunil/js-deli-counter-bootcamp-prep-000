@@ -6,7 +6,7 @@ function takeANumber(katzDeli,newbie){
 }
 
 function nowServing(){
-  if (katzdeli.length > 0) {
+  if (katzDeli.length > 0) {
     return katzDeli(0);
     katzDeli.shift();
   } else {
